@@ -6,9 +6,13 @@
 //  
 //
 
+import RealityKit
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var arView: ARView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
