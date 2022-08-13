@@ -14,6 +14,8 @@
 		524DC38928A7C64F0098EF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524DC38828A7C64F0098EF11 /* Assets.xcassets */; };
 		524DC38C28A7C64F0098EF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524DC38A28A7C64F0098EF11 /* LaunchScreen.storyboard */; };
 		524DC39328A7C86A0098EF11 /* SkeletonLib in Frameworks */ = {isa = PBXBuildFile; productRef = 524DC39228A7C86A0098EF11 /* SkeletonLib */; };
+		524DC39828A7CDCC0098EF11 /* ProjectRobot.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 524DC39728A7CDC30098EF11 /* ProjectRobot.rcproject */; };
+		52FB4EC728A7D16E00763143 /* SkeletonDefinition+robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4EC628A7D16E00763143 /* SkeletonDefinition+robot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		524DC38B28A7C64F0098EF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524DC38D28A7C64F0098EF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524DC39528A7C8AB0098EF11 /* skeleton.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = skeleton.xcconfig; sourceTree = "<group>"; };
+		524DC39728A7CDC30098EF11 /* ProjectRobot.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ProjectRobot.rcproject; sourceTree = "<group>"; };
+		52FB4EC628A7D16E00763143 /* SkeletonDefinition+robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkeletonDefinition+robot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		524DC37E28A7C64D0098EF11 /* skeleton */ = {
 			isa = PBXGroup;
 			children = (
+				52FB4EC528A7D16000763143 /* generated */,
+				524DC39628A7CD800098EF11 /* resources */,
 				524DC39428A7C8950098EF11 /* xcconfig */,
 				524DC37F28A7C64D0098EF11 /* AppDelegate.swift */,
 				524DC38128A7C64D0098EF11 /* SceneDelegate.swift */,
@@ -85,6 +91,22 @@
 				524DC39528A7C8AB0098EF11 /* skeleton.xcconfig */,
 			);
 			path = xcconfig;
+			sourceTree = "<group>";
+		};
+		524DC39628A7CD800098EF11 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				524DC39728A7CDC30098EF11 /* ProjectRobot.rcproject */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		52FB4EC528A7D16000763143 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				52FB4EC628A7D16E00763143 /* SkeletonDefinition+robot.swift */,
+			);
+			path = generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				524DC38428A7C64D0098EF11 /* ViewController.swift in Sources */,
+				524DC39828A7CDCC0098EF11 /* ProjectRobot.rcproject in Sources */,
+				52FB4EC728A7D16E00763143 /* SkeletonDefinition+robot.swift in Sources */,
 				524DC38028A7C64D0098EF11 /* AppDelegate.swift in Sources */,
 				524DC38228A7C64D0098EF11 /* SceneDelegate.swift in Sources */,
 			);
