@@ -16,7 +16,7 @@ public class SkeletonAnimator<Definition: SkeletonDefinitionProtocol> {
         }
     }
     public var defaultJointTransforms: [Transform]?
-    
+
     private let definition: Definition
     public init(definition: Definition) {
         self.definition = definition

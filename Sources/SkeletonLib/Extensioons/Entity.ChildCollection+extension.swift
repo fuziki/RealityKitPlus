@@ -22,4 +22,3 @@ extension Entity.ChildCollection {
         return nil
     }
 }
-

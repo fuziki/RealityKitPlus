@@ -19,14 +19,48 @@
                             <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wq1-aw-fG4">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </arView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="3.1400000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="mJK-ki-R8q">
+                                <rect key="frame" x="14" y="741" width="386" height="31"/>
+                                <connections>
+                                    <action selector="onLeftArm:" destination="BYZ-38-t0r" eventType="valueChanged" id="rq7-Xe-m3G"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="3.1400000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="Uvx-ef-bXK">
+                                <rect key="frame" x="14" y="816" width="386" height="31"/>
+                                <connections>
+                                    <action selector="onLeftForeArm:" destination="BYZ-38-t0r" eventType="valueChanged" id="GOt-1z-DsZ"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Fore Arm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPd-fo-RW1">
+                                <rect key="frame" x="155" y="787" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Arm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1X-2q-QUe">
+                                <rect key="frame" x="174" y="712" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Wq1-aw-fG4" secondAttribute="bottom" id="20z-X2-r63"/>
+                            <constraint firstItem="mJK-ki-R8q" firstAttribute="top" secondItem="t1X-2q-QUe" secondAttribute="bottom" constant="8" id="4IS-cQ-vJl"/>
+                            <constraint firstItem="UPd-fo-RW1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5rY-mk-fva"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uvx-ef-bXK" secondAttribute="bottom" constant="16" id="6s8-KA-dFY"/>
                             <constraint firstAttribute="trailing" secondItem="Wq1-aw-fG4" secondAttribute="trailing" id="Sww-sM-j5I"/>
                             <constraint firstItem="Wq1-aw-fG4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ui3-ai-rOK"/>
+                            <constraint firstItem="t1X-2q-QUe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WGs-IL-2jB"/>
                             <constraint firstItem="Wq1-aw-fG4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aXc-y1-Ux6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mJK-ki-R8q" secondAttribute="trailing" constant="16" id="gDE-bU-upz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uvx-ef-bXK" secondAttribute="trailing" constant="16" id="plg-uh-d0b"/>
+                            <constraint firstItem="UPd-fo-RW1" firstAttribute="top" secondItem="mJK-ki-R8q" secondAttribute="bottom" constant="16" id="qx9-Vf-Wm8"/>
+                            <constraint firstItem="Uvx-ef-bXK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sF5-Sx-RDI"/>
+                            <constraint firstItem="Uvx-ef-bXK" firstAttribute="top" secondItem="UPd-fo-RW1" secondAttribute="bottom" constant="8" id="vjs-io-zGt"/>
+                            <constraint firstItem="mJK-ki-R8q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="x5J-wl-I6h"/>
                         </constraints>
                     </view>
                     <connections>
