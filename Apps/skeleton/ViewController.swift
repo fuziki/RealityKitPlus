@@ -8,6 +8,7 @@
 
 import Combine
 import RealityKit
+import RealityKitPlus
 import SkeletonLib
 import UIKit
 

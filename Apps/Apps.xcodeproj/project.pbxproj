@@ -14,6 +14,9 @@
 		521CCCE228A8915500F57F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521CCCE128A8915500F57F9B /* Assets.xcassets */; };
 		521CCCE528A8915500F57F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521CCCE328A8915500F57F9B /* LaunchScreen.storyboard */; };
 		521CCCEC28A891A600F57F9B /* common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 521CCCEB28A891A600F57F9B /* common.xcconfig */; };
+		521CCCEF28A8941400F57F9B /* ProjectRobot.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 521CCCEE28A8941400F57F9B /* ProjectRobot.rcproject */; };
+		524C290B28A8953B00B939F9 /* RealityKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 524C290A28A8953B00B939F9 /* RealityKitPlus */; };
+		524C290D28A8954000B939F9 /* RealityKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 524C290C28A8954000B939F9 /* RealityKitPlus */; };
 		524DC38028A7C64D0098EF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC37F28A7C64D0098EF11 /* AppDelegate.swift */; };
 		524DC38228A7C64D0098EF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC38128A7C64D0098EF11 /* SceneDelegate.swift */; };
 		524DC38428A7C64D0098EF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC38328A7C64D0098EF11 /* ViewController.swift */; };
@@ -35,6 +38,7 @@
 		521CCCE428A8915500F57F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521CCCE628A8915500F57F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521CCCEB28A891A600F57F9B /* common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = common.xcconfig; sourceTree = "<group>"; };
+		521CCCEE28A8941400F57F9B /* ProjectRobot.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ProjectRobot.rcproject; sourceTree = "<group>"; };
 		524DC37C28A7C64D0098EF11 /* skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524DC37F28A7C64D0098EF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524DC38128A7C64D0098EF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +47,6 @@
 		524DC38828A7C64F0098EF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524DC38B28A7C64F0098EF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524DC38D28A7C64F0098EF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		524DC39528A7C8AB0098EF11 /* skeleton.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = skeleton.xcconfig; sourceTree = "<group>"; };
 		524DC39728A7CDC30098EF11 /* ProjectRobot.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ProjectRobot.rcproject; sourceTree = "<group>"; };
 		52FB4EC628A7D16E00763143 /* SkeletonDefinition+robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkeletonDefinition+robot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524C290D28A8954000B939F9 /* RealityKitPlus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524C290B28A8953B00B939F9 /* RealityKitPlus in Frameworks */,
 				524DC39328A7C86A0098EF11 /* SkeletonLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +75,7 @@
 		521CCCD728A8915300F57F9B /* custom-material */ = {
 			isa = PBXGroup;
 			children = (
+				521CCCED28A893B800F57F9B /* resources */,
 				521CCCD828A8915300F57F9B /* AppDelegate.swift */,
 				521CCCDA28A8915300F57F9B /* SceneDelegate.swift */,
 				521CCCDC28A8915300F57F9B /* ViewController.swift */,
@@ -87,6 +93,14 @@
 				521CCCEB28A891A600F57F9B /* common.xcconfig */,
 			);
 			path = xcconfig;
+			sourceTree = "<group>";
+		};
+		521CCCED28A893B800F57F9B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				521CCCEE28A8941400F57F9B /* ProjectRobot.rcproject */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		524DC37128A7C5A30098EF11 = {
@@ -114,7 +128,6 @@
 			children = (
 				52FB4EC528A7D16000763143 /* generated */,
 				524DC39628A7CD800098EF11 /* resources */,
-				524DC39428A7C8950098EF11 /* xcconfig */,
 				524DC37F28A7C64D0098EF11 /* AppDelegate.swift */,
 				524DC38128A7C64D0098EF11 /* SceneDelegate.swift */,
 				524DC38328A7C64D0098EF11 /* ViewController.swift */,
@@ -131,14 +144,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		524DC39428A7C8950098EF11 /* xcconfig */ = {
-			isa = PBXGroup;
-			children = (
-				524DC39528A7C8AB0098EF11 /* skeleton.xcconfig */,
-			);
-			path = xcconfig;
 			sourceTree = "<group>";
 		};
 		524DC39628A7CD800098EF11 /* resources */ = {
@@ -173,6 +178,9 @@
 			dependencies = (
 			);
 			name = "custom-material";
+			packageProductDependencies = (
+				524C290C28A8954000B939F9 /* RealityKitPlus */,
+			);
 			productName = "custom-material";
 			productReference = 521CCCD628A8915300F57F9B /* custom-material.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +200,7 @@
 			name = skeleton;
 			packageProductDependencies = (
 				524DC39228A7C86A0098EF11 /* SkeletonLib */,
+				524C290A28A8953B00B939F9 /* RealityKitPlus */,
 			);
 			productName = skeleton;
 			productReference = 524DC37C28A7C64D0098EF11 /* skeleton.app */;
@@ -264,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521CCCDD28A8915300F57F9B /* ViewController.swift in Sources */,
+				521CCCEF28A8941400F57F9B /* ProjectRobot.rcproject in Sources */,
 				521CCCD928A8915300F57F9B /* AppDelegate.swift in Sources */,
 				521CCCDB28A8915300F57F9B /* SceneDelegate.swift in Sources */,
 			);
@@ -674,6 +684,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		524C290A28A8953B00B939F9 /* RealityKitPlus */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitPlus;
+		};
+		524C290C28A8954000B939F9 /* RealityKitPlus */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitPlus;
+		};
 		524DC39228A7C86A0098EF11 /* SkeletonLib */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SkeletonLib;
