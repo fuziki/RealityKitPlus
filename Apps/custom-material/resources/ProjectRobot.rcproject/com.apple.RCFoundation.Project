@@ -10,7 +10,38 @@
                 "name" : "surface"
               },
               "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
 
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "E164E718-1679-4ECF-A2BA-4FA5928F0566",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "ビヘイビア",
+                      "triggers" : [
+
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
               ],
               "gravity" : [
                 0,
@@ -21,6 +52,178 @@
               "material" : "concrete",
               "overrides" : {
                 "children" : {
+                  "1BD3B7FD-C11B-439E-9D29-868E8C595622" : null,
+                  "02B3E3BD-5D7C-411C-BC40-57573CF732FB" : null,
+                  "04EBBB75-0EB1-4C07-9BFD-EAA395CF6821" : null,
+                  "4F2A6142-9015-4EA1-98DC-A358117A1C3A" : null,
+                  "6A8B4F13-52B6-47BB-89AA-CA48CEF3474A" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Earth"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "09666173-9165-40EC-8AD2-099968BB0598"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Earth.402ff266-9a33-4622-9411-b72c32a7ea1d",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "FC2229A4-CB77-4E29-B36C-4D15555722D2"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4.0000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.0000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.0000004768371582,
+                        0,
+                        0.86671876907348633,
+                        1.2229046821594238,
+                        -0.18881712853908539,
+                        1
+                      ]
+                    }
+                  },
+                  "17DE786A-3E69-49AC-81D3-51EE560F0C8A" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Library Icon"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E552AC5B-B274-4E1D-9ECA-9B79BEC39875"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.LibraryIcon.8ce4c647-f7e8-4308-a751-80ac6a640136",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C77E1730-7D20-4FDB-B3A5-1B7F202648AA"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        20.000001907348633,
+                        0,
+                        0,
+                        0,
+                        0,
+                        20.000001907348633,
+                        0,
+                        0,
+                        0,
+                        0,
+                        20.000001907348633,
+                        0,
+                        0,
+                        -0.20000000298023224,
+                        -5,
+                        1
+                      ]
+                    }
+                  },
+                  "41FE80E4-2439-4D8B-B61C-65CAB7A96270" : null,
+                  "160FE427-7A1E-4F56-8328-82F580946933" : null,
                   "9677A0A1-456E-482A-B6D6-93AA6AAC1A0D" : {
                     "overrides" : {
                       "children" : {
@@ -128,14 +331,270 @@
                         1.0000001192092896,
                         0,
                         0,
-                        0,
+                        0.97726398706436157,
                         0,
                         1
                       ]
                     }
                   },
                   "56932D03-3C62-4B38-BE89-D9A282B4AD28" : null,
+                  "A5402044-AE84-4307-8E01-17F902E60937" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Earth"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B714ECF5-8B4C-492C-AFE0-ABC83B6E6ED7"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Earth.402ff266-9a33-4622-9411-b72c32a7ea1d",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "AF5912AC-E8CF-4DB4-89C6-40E9D4D18F89"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4.0000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.0000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.0000004768371582,
+                        0,
+                        0.45182004570960999,
+                        1.9781856536865234,
+                        -0.18882043659687042,
+                        1
+                      ]
+                    }
+                  },
                   "B8ADC2A3-5458-4999-B524-7DFEF9BE807A" : null,
+                  "C3130F6F-75B6-4A95-99A7-ECAFD907C661" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Jupiter"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "47514DB4-2DC9-4ADF-B27C-F2120684C1CB"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Jupiter.9a1c5bce-03d0-4d70-a53e-efe0f4e9b295",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "2A03069A-B333-4CF1-8DE7-8082C73B6641"
+                          }
+                        ],
+                        [
+                          "isAccessibilityEnabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.40000003576278687,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.40000003576278687,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.40000003576278687,
+                        0,
+                        0.88424581289291382,
+                        0.37558060884475708,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "D69629DC-48F0-4BE5-99F6-45B5DB0F4023" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Earth"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "38A21F89-FAC8-4D0B-B38C-ACA743982A8C"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Earth.402ff266-9a33-4622-9411-b72c32a7ea1d",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "62D91757-2B7F-4657-8CF1-630378D58DBC"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4.0000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.0000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.0000004768371582,
+                        0,
+                        0.58963990211486816,
+                        0.8080064058303833,
+                        -0.18881957232952118,
+                        1
+                      ]
+                    }
+                  },
                   "EDA004ED-E910-4336-BE11-3596C68D755A" : null
                 },
                 "factory" : null,
@@ -153,21 +612,21 @@
               "title" : "RobotScene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99999868869781494,
+                  0.99630594253540039,
+                  2.6077032089233398e-08,
+                  0.085874244570732117,
                   0,
-                  0.0016021722694858909,
+                  0.050897691398859024,
+                  0.80542290210723877,
+                  -0.59051096439361572,
                   0,
-                  0.0007543743122369051,
-                  0.88221639394760132,
-                  -0.47084367275238037,
+                  -0.06916511058807373,
+                  0.59270042181015015,
+                  0.80244767665863037,
                   0,
-                  -0.0014134623343124986,
-                  0.47084423899650574,
-                  0.88221514225006104,
-                  0,
-                  0.77764230966567993,
-                  3.9545929431915283,
-                  6.8705215454101562,
+                  0.19646234810352325,
+                  9.2019481658935547,
+                  9.1161632537841797,
                   1
                 ],
                 "sceneTransform" : [

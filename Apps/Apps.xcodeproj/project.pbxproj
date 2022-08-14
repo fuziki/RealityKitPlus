@@ -17,6 +17,7 @@
 		521CCCEF28A8941400F57F9B /* ProjectRobot.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 521CCCEE28A8941400F57F9B /* ProjectRobot.rcproject */; };
 		524C290B28A8953B00B939F9 /* RealityKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 524C290A28A8953B00B939F9 /* RealityKitPlus */; };
 		524C290D28A8954000B939F9 /* RealityKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 524C290C28A8954000B939F9 /* RealityKitPlus */; };
+		524C293728A8D00000B939F9 /* alps_field_1k.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 524C293628A8D00000B939F9 /* alps_field_1k.skybox */; };
 		524DC38028A7C64D0098EF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC37F28A7C64D0098EF11 /* AppDelegate.swift */; };
 		524DC38228A7C64D0098EF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC38128A7C64D0098EF11 /* SceneDelegate.swift */; };
 		524DC38428A7C64D0098EF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC38328A7C64D0098EF11 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		521CCCE628A8915500F57F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521CCCEB28A891A600F57F9B /* common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = common.xcconfig; sourceTree = "<group>"; };
 		521CCCEE28A8941400F57F9B /* ProjectRobot.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ProjectRobot.rcproject; sourceTree = "<group>"; };
+		524C293628A8D00000B939F9 /* alps_field_1k.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = alps_field_1k.skybox; sourceTree = "<group>"; };
 		524DC37C28A7C64D0098EF11 /* skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524DC37F28A7C64D0098EF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524DC38128A7C64D0098EF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		521CCCED28A893B800F57F9B /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				524C293628A8D00000B939F9 /* alps_field_1k.skybox */,
 				521CCCEE28A8941400F57F9B /* ProjectRobot.rcproject */,
 			);
 			path = resources;
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524C293728A8D00000B939F9 /* alps_field_1k.skybox in Resources */,
 				521CCCE528A8915500F57F9B /* LaunchScreen.storyboard in Resources */,
 				521CCCE228A8915500F57F9B /* Assets.xcassets in Resources */,
 				521CCCE028A8915300F57F9B /* Main.storyboard in Resources */,
