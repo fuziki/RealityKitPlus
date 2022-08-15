@@ -158,6 +158,20 @@
                         ]
                       ],
                       "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1F5B588A-1071-448D-B9D6-6995995B49CC"
+                                }
+                              ]
+                            ]
+                          }
+                        },
                         "item" : {
                           "overrides" : {
                             "factory" : null,
@@ -469,6 +483,13 @@
                           }
                         ],
                         [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Jupiter"
+                          }
+                        ],
+                        [
                           "isAccessibilityEnabled",
                           {
                             "typeName" : "Bool",
@@ -505,9 +526,9 @@
                         0,
                         0.40000003576278687,
                         0,
-                        0.88424581289291382,
-                        0.37558060884475708,
-                        0,
+                        -0.45838627219200134,
+                        0.37558043003082275,
+                        -0.093732409179210663,
                         1
                       ]
                     }
@@ -595,7 +616,97 @@
                       ]
                     }
                   },
-                  "EDA004ED-E910-4336-BE11-3596C68D755A" : null
+                  "EDA004ED-E910-4336-BE11-3596C68D755A" : null,
+                  "F3D65A54-5B97-4F54-BDEE-8BED34FDD9BA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Saturn"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "66845837-02EC-4F10-961B-1C53534490CC"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Saturn.827c0a15-ffe3-4505-8a2d-d1438319f0a4",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4296226F-4D7B-4F7A-9783-253C6803B78A"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Saturn"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.60000008344650269,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.60000008344650269,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.60000008344650269,
+                        0,
+                        0.68854653835296631,
+                        0.47216501832008362,
+                        0.32237693667411804,
+                        1
+                      ]
+                    }
+                  }
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -612,21 +723,21 @@
               "title" : "RobotScene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99630594253540039,
-                  2.6077032089233398e-08,
-                  0.085874244570732117,
+                  0.99136930704116821,
+                  3.259628300611439e-08,
+                  0.13109831511974335,
                   0,
-                  0.050897691398859024,
-                  0.80542290210723877,
-                  -0.59051096439361572,
+                  0.055437240749597549,
+                  0.90619134902954102,
+                  -0.41921812295913696,
                   0,
-                  -0.06916511058807373,
-                  0.59270042181015015,
-                  0.80244767665863037,
+                  -0.11880012601613998,
+                  0.42286774516105652,
+                  0.89837038516998291,
                   0,
-                  0.19646234810352325,
-                  9.2019481658935547,
-                  9.1161632537841797,
+                  0.12623369693756104,
+                  4.3853330612182617,
+                  6.046666145324707,
                   1
                 ],
                 "sceneTransform" : [

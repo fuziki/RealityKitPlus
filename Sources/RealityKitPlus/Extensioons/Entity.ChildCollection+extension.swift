@@ -21,4 +21,15 @@ extension Entity.ChildCollection {
         }
         return nil
     }
+
+    public func recursiveCompactMap<T>(_ transform: (Self.Element) throws -> T?) rethrows -> [T] {
+        var res: [T] = []
+        for c in self {
+            if let r = try transform(c) {
+                res.append(r)
+            }
+            res += try c.children.recursiveCompactMap(transform)
+        }
+        return res
+    }
 }

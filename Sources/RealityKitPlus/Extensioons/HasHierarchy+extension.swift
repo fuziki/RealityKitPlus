@@ -16,4 +16,11 @@ extension HasHierarchy {
             c.printChildren(nest: nest + 1)
         }
     }
+
+    public func recursive(handler: (Entity) -> String, nest: Int = 0) where Self: Entity {
+        print("\(handler(self))")
+        for c in children {
+            c.recursive(handler: handler, nest: nest + 1)
+        }
+    }
 }
