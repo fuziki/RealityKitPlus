@@ -20,6 +20,17 @@
 		524C293728A8D00000B939F9 /* alps_field_1k.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 524C293628A8D00000B939F9 /* alps_field_1k.skybox */; };
 		524C295128A9496100B939F9 /* CustomMaterial.metal in Sources */ = {isa = PBXBuildFile; fileRef = 524C295028A9496100B939F9 /* CustomMaterial.metal */; };
 		524C295328A9606000B939F9 /* tmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C295228A9606000B939F9 /* tmp.swift */; };
+		524C295B28AA828200B939F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C295A28AA828200B939F9 /* AppDelegate.swift */; };
+		524C295D28AA828200B939F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C295C28AA828200B939F9 /* SceneDelegate.swift */; };
+		524C295F28AA828200B939F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C295E28AA828200B939F9 /* ViewController.swift */; };
+		524C296228AA828200B939F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C296028AA828200B939F9 /* Main.storyboard */; };
+		524C296428AA828300B939F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C296328AA828300B939F9 /* Assets.xcassets */; };
+		524C296728AA828300B939F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C296528AA828300B939F9 /* LaunchScreen.storyboard */; };
+		524C296E28AA842600B939F9 /* football.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 524C296D28AA842600B939F9 /* football.rcproject */; };
+		524C297028AA8AE000B939F9 /* alps_field_1k.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 524C296F28AA8AE000B939F9 /* alps_field_1k.skybox */; };
+		524C297328AB1CDA00B939F9 /* ControllerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524C297228AB1CDA00B939F9 /* ControllerView.xib */; };
+		524C297528AB1D0500B939F9 /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C297428AB1D0500B939F9 /* ControllerView.swift */; };
+		524C297728ABDC3300B939F9 /* RealityKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 524C297628ABDC3300B939F9 /* RealityKitPlus */; };
 		524DC38028A7C64D0098EF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC37F28A7C64D0098EF11 /* AppDelegate.swift */; };
 		524DC38228A7C64D0098EF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC38128A7C64D0098EF11 /* SceneDelegate.swift */; };
 		524DC38428A7C64D0098EF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DC38328A7C64D0098EF11 /* ViewController.swift */; };
@@ -45,6 +56,18 @@
 		524C293628A8D00000B939F9 /* alps_field_1k.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = alps_field_1k.skybox; sourceTree = "<group>"; };
 		524C295028A9496100B939F9 /* CustomMaterial.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CustomMaterial.metal; sourceTree = "<group>"; };
 		524C295228A9606000B939F9 /* tmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmp.swift; sourceTree = "<group>"; };
+		524C295828AA828200B939F9 /* football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = football.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524C295A28AA828200B939F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524C295C28AA828200B939F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		524C295E28AA828200B939F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		524C296128AA828200B939F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524C296328AA828300B939F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524C296628AA828300B939F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524C296828AA828300B939F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524C296D28AA842600B939F9 /* football.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = football.rcproject; sourceTree = "<group>"; };
+		524C296F28AA8AE000B939F9 /* alps_field_1k.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = alps_field_1k.skybox; sourceTree = "<group>"; };
+		524C297228AB1CDA00B939F9 /* ControllerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControllerView.xib; sourceTree = "<group>"; };
+		524C297428AB1D0500B939F9 /* ControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerView.swift; sourceTree = "<group>"; };
 		524DC37C28A7C64D0098EF11 /* skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524DC37F28A7C64D0098EF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524DC38128A7C64D0098EF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +86,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				524C290D28A8954000B939F9 /* RealityKitPlus in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C295528AA828200B939F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C297728ABDC3300B939F9 /* RealityKitPlus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +151,47 @@
 			path = shader;
 			sourceTree = "<group>";
 		};
+		524C295928AA828200B939F9 /* football */ = {
+			isa = PBXGroup;
+			children = (
+				524C296C28AA83EE00B939F9 /* resources */,
+				524C297128AB1CBD00B939F9 /* controller */,
+				524C295A28AA828200B939F9 /* AppDelegate.swift */,
+				524C295C28AA828200B939F9 /* SceneDelegate.swift */,
+				524C295E28AA828200B939F9 /* ViewController.swift */,
+				524C296028AA828200B939F9 /* Main.storyboard */,
+				524C296328AA828300B939F9 /* Assets.xcassets */,
+				524C296528AA828300B939F9 /* LaunchScreen.storyboard */,
+				524C296828AA828300B939F9 /* Info.plist */,
+			);
+			path = football;
+			sourceTree = "<group>";
+		};
+		524C296C28AA83EE00B939F9 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				524C296F28AA8AE000B939F9 /* alps_field_1k.skybox */,
+				524C296D28AA842600B939F9 /* football.rcproject */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		524C297128AB1CBD00B939F9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				524C297228AB1CDA00B939F9 /* ControllerView.xib */,
+				524C297428AB1D0500B939F9 /* ControllerView.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		524DC37128A7C5A30098EF11 = {
 			isa = PBXGroup;
 			children = (
 				521CCCEA28A891A600F57F9B /* xcconfig */,
 				524DC37E28A7C64D0098EF11 /* skeleton */,
 				521CCCD728A8915300F57F9B /* custom-material */,
+				524C295928AA828200B939F9 /* football */,
 				524DC37D28A7C64D0098EF11 /* Products */,
 				524DC39128A7C86A0098EF11 /* Frameworks */,
 			);
@@ -136,6 +202,7 @@
 			children = (
 				524DC37C28A7C64D0098EF11 /* skeleton.app */,
 				521CCCD628A8915300F57F9B /* custom-material.app */,
+				524C295828AA828200B939F9 /* football.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +269,26 @@
 			productReference = 521CCCD628A8915300F57F9B /* custom-material.app */;
 			productType = "com.apple.product-type.application";
 		};
+		524C295728AA828200B939F9 /* football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524C296928AA828300B939F9 /* Build configuration list for PBXNativeTarget "football" */;
+			buildPhases = (
+				524C295428AA828200B939F9 /* Sources */,
+				524C295528AA828200B939F9 /* Frameworks */,
+				524C295628AA828200B939F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = football;
+			packageProductDependencies = (
+				524C297628ABDC3300B939F9 /* RealityKitPlus */,
+			);
+			productName = football;
+			productReference = 524C295828AA828200B939F9 /* football.app */;
+			productType = "com.apple.product-type.application";
+		};
 		524DC37B28A7C64D0098EF11 /* skeleton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524DC39028A7C64F0098EF11 /* Build configuration list for PBXNativeTarget "skeleton" */;
@@ -236,6 +323,9 @@
 					521CCCD528A8915300F57F9B = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					524C295728AA828200B939F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					524DC37B28A7C64D0098EF11 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -256,6 +346,7 @@
 			targets = (
 				524DC37B28A7C64D0098EF11 /* skeleton */,
 				521CCCD528A8915300F57F9B /* custom-material */,
+				524C295728AA828200B939F9 /* football */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +360,18 @@
 				521CCCE528A8915500F57F9B /* LaunchScreen.storyboard in Resources */,
 				521CCCE228A8915500F57F9B /* Assets.xcassets in Resources */,
 				521CCCE028A8915300F57F9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C295628AA828200B939F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C297028AA8AE000B939F9 /* alps_field_1k.skybox in Resources */,
+				524C296728AA828300B939F9 /* LaunchScreen.storyboard in Resources */,
+				524C296428AA828300B939F9 /* Assets.xcassets in Resources */,
+				524C297328AB1CDA00B939F9 /* ControllerView.xib in Resources */,
+				524C296228AA828200B939F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +402,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		524C295428AA828200B939F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C295F28AA828200B939F9 /* ViewController.swift in Sources */,
+				524C295B28AA828200B939F9 /* AppDelegate.swift in Sources */,
+				524C295D28AA828200B939F9 /* SceneDelegate.swift in Sources */,
+				524C296E28AA842600B939F9 /* football.rcproject in Sources */,
+				524C297528AB1D0500B939F9 /* ControllerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		524DC37828A7C64D0098EF11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +441,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				521CCCE428A8915500F57F9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		524C296028AA828200B939F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524C296128AA828200B939F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524C296528AA828300B939F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524C296628AA828300B939F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -479,6 +610,160 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "custom-material/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524C296A28AA828300B939F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = football/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		524C296B28AA828300B939F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = football/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -683,6 +968,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		524C296928AA828300B939F9 /* Build configuration list for PBXNativeTarget "football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524C296A28AA828300B939F9 /* Debug */,
+				524C296B28AA828300B939F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		524DC37528A7C5A30098EF11 /* Build configuration list for PBXProject "Apps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -709,6 +1003,10 @@
 			productName = RealityKitPlus;
 		};
 		524C290C28A8954000B939F9 /* RealityKitPlus */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitPlus;
+		};
+		524C297628ABDC3300B939F9 /* RealityKitPlus */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitPlus;
 		};
